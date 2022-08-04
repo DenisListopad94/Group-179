@@ -147,3 +147,5 @@
 #     s = list(map(int, s))
 #     lst.extend(s)
 # print(lst[:n])
+s = input()
+print(s)
