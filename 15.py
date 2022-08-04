@@ -139,10 +139,11 @@
 #         print((A[i][c-1]),end=' ')
 #     c-=1
 #     print()
-lst = [int(s) for s in input().split()]
-count = 0
-for i in range(len(lst)):
-    for j in range(i + 1, len(lst)):
-        if lst[i] == lst[j]:
-            count += 1
-print(count)
+# lst = [int(s) for s in input().split()]
+# count = 0
+# for i in range(len(lst)):
+#     for j in range(i + 1, len(lst)):
+#         if lst[i] == lst[j]:
+#             count += 1
+# print(count)
+print("hello")
