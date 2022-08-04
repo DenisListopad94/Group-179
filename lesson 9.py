@@ -287,3 +287,22 @@
 #     print(i)
 #     k = str(i) * i
 #     lst.extend(list(map(int,k)))
+# a, b, c = map(int, input().split())
+# m = a
+# if m < b:
+#     m = b
+# if m < c:
+#     m = c
+# print(m)
+# number = int(input())
+# print("чётное" if number % 2 == 0 else "нечётное")
+# print({i if i % 2 == 0 else 0 for i in range(1, 11) })
+# import copy
+#
+# some_lst = [1, [5], 7]
+# print(some_lst[1] is copy.deepcopy(some_lst)[1])
+# def fun(some_lst : list):
+#     some_lst.append(6)
+#     print(some_lst)
+# lst = "hello"
+# fun(lst)
